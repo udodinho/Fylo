@@ -1,0 +1,229 @@
+body {
+  max-width: 375px;
+}
+
+/* Navbar */
+#navbar {
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem;
+}
+#navbar .logo img {
+  width: 5rem;
+}
+#navbar ul li a {
+  padding: 0.5rem;
+}
+
+/* Header */
+#header img {
+  width: 70%;
+  z-index: 23;
+}
+ 
+h1 {
+  font-size: 1.5rem;
+}
+.head::before  {
+  content: '';
+  background: hsl(218, 28%, 13%);
+  position: absolute;
+  top: 23rem;
+  left: 0;
+  z-index: 2;
+  height: 50%;
+  width: 100%;
+  z-index: -1;
+}
+.btn {
+  padding: 1.1rem 6rem;
+}
+
+/* Section: Showcase-Contents */
+.showcase-content::before {
+  content: '';
+  background: url('/images/bg-curvy-mobile.svg') no-repeat center center/cover;
+  position: absolute;
+  top: -19.5rem;
+  left: -2.5rem;
+  z-index: -1;
+  height: 20%;
+  width: 100%;
+}
+.showcase-contents {
+  flex-direction: column;
+}
+.showcase-contents .access {
+  width: 23rem;
+  padding: 2rem;
+  margin: 0 10rem;
+  margin-top: 6rem;
+}
+.showcase-contents .security {
+  width: 23rem;
+  padding: 2rem;
+  margin: 0 10rem;
+}
+/* Section: Container */
+.container {
+  flex-direction: column;
+}
+.container .collaboration {
+  width: 23rem;
+  padding: 2rem;
+  margin: 2rem 10rem;
+}
+.container .file {
+  width: 23rem;
+  padding: 2rem;
+  margin: 0 10rem;
+}
+
+/* Section: Team */
+#team {
+  flex-direction: column;
+}
+#team .image img {
+  width: 20rem;
+  margin-right: 6rem;
+}
+#team .content-header {
+  width: 23rem;
+  padding: 2rem;
+  margin: 0 3rem;
+
+}
+#team .content-header a {
+  display: inline-block;
+  color: hsl(176, 68%, 64%);
+  text-decoration: underline;
+  width: 20rem;
+  padding: 1rem;
+  margin-top: -0.3rem;
+  margin-right: -8rem;
+  font-size: 1rem;
+}
+#team .content-header a img {
+  width: 4%;
+}
+
+/* Card */
+.testimonials {
+  flex-direction: column; 
+  margin: -3rem 0; 
+}
+.card-1 {
+  margin: .7rem;
+  padding: 1.5rem;
+  width: 20rem;
+  max-height: 15rem;
+  font-size: 1rem;
+  border-radius: 0.5rem;
+}
+.card-2 {
+  margin: .7rem;
+  padding: 1.5rem;
+  width: 20rem;
+  max-height: 15rem;
+  font-size: 1rem;
+  border-radius: 0.5rem;
+}
+.card-3 {
+  margin: .7rem;
+  padding: 1.5rem;
+  width: 20rem;
+  max-height: 15rem;
+  font-size: 1rem;
+  border-radius: 0.5rem;
+}
+.card .quote img {
+ margin-left: 2.5rem;
+  width: 20%;
+}
+
+/* Section: Email */
+.email-content::before {
+  width: 100%;
+  height: 100%;
+  margin: 3rem 0;
+}
+.email-content {
+  width: 20rem;
+  height: 30rem;
+  padding: 3rem 1rem;
+}
+.email-content h2 {
+  margin-bottom: -.8rem;
+  margin-top: 2rem;
+  text-align: center;
+  font-size: 1.3rem;
+}
+.email-content p {
+  padding: 1.2rem;
+  text-align: center;
+}
+.email-content input {
+  display: block;
+  width: 100%;
+  border-radius: 3rem;
+  padding: 0.75rem 1rem;
+  margin-bottom: 1rem;
+}
+.button {
+  display: block;
+  width: 100%;
+  text-align: center;
+  margin: .3rem;
+}
+
+/* Footer */
+.footer {
+  display: flex;
+  flex-direction: column;
+}
+.footer-content {
+  flex-direction: column;
+}
+.location {
+  margin-bottom: -17rem;
+ 
+}
+
+.loc-content {
+max-width: 19rem;
+margin-top: 1rem;
+}
+
+
+.contact {
+  margin-left: 1rem;
+  margin-bottom: -14rem;
+}
+
+.sitemap {
+  margin-left: 2rem;
+  line-height: 1.9;
+  margin-bottom: -14rem;
+}
+.site {
+  margin-left: 2rem;
+  line-height: 1.9;
+  margin-bottom: -14rem;
+}
+.social-icon {
+  margin-bottom: 3rem;
+  align-items: center;
+  justify-content: center;
+  margin-left: 9rem;
+}
+.social-icon i {
+  padding: 0.9rem;
+  background:hsl(217, 28%, 15%);
+  border-radius: 50%;
+  
+}
+
+footer .author {
+  flex-direction: column;
+  
+}
